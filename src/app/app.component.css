@@ -1,0 +1,31 @@
+.rooms-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.room {
+  padding: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.booked {
+  background-color: #ffcccc;
+}
+.selected {
+  border: 2px solid blue;
+}
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.floor {
+  display: flex;
+  align-items: start!important;
+  text-align: left!important;
+}
+.hotel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
